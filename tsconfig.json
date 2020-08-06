@@ -1,10 +1,20 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "es2015",
+    "module": "UMD",
     "declaration": true,
     "outDir": "./lib",
-    "strict": true
+    "strict": true,
+    "types": ["node"],
+    "lib": ["dom", "es2015"],
+
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
   },
   "include": ["ThreeSteer.js", "ThreeSteer.d.ts", "node_modules/three/build/three.module.js"],
   "exclude": ["node_modules", "**/__tests__/*"]

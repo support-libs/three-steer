@@ -4,6 +4,7 @@
   "description": "<h2>Note: This forked version just implements a type.d and a package.json</h2>",
   "main": "ThreeSteer.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,6 @@
   },
   "dependencies": {
     "three": "^0.119.1"
-  }
+  },
+  "typings": "ThreeSteer.d.ts"
 }

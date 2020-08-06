@@ -1,4 +1,5 @@
 declare module "three-steer" {
+
   import * as THREE from 'three';
 
   export class Entity extends THREE.Group {
@@ -87,4 +88,8 @@ declare module "three-steer" {
     update(): void;
   }
 
+}
+
+interface Window {
+  THREE: any
 }
