@@ -1,3 +1,6 @@
+const THREE_JS = require('three');
+window.THREE = THREE_JS || {};
+
 Entity = function (mesh) {
 
     THREE.Group.apply(this);
