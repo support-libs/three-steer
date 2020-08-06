@@ -1,5 +1,7 @@
 # ThreeSteer
 
+<h2>Note: This forked version just implements a type.d and a package.json</h2>
+
 <p align="center">
   <img src="https://github.com/erosmarcon/three-steer/blob/master/images/screenshots/ThreeSteer-shot-1.png"/>
 </p>
