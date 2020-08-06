@@ -2,10 +2,7 @@
   "name": "three-steer",
   "version": "1.0.0",
   "description": "<h2>Note: This forked version just implements a type.d and a package.json</h2>",
-  "files": [
-    "ThreeSteer.d.ts",
-    "ThreeSteer.js"
-  ],
+  "main": "ThreeSteer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
